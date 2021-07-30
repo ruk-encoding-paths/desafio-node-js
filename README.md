@@ -52,7 +52,7 @@ Em caso de erro, retorna o código de status e a mensagem de erro correspondente
 
 Este endpoint deve receber um objeto com `email` e `password`
 
-Caso o e-mail exista e a senha seja igual a persistida, deve torna um token JWT que deve ser incluído no payload: `email`, `id`.
+Caso o e-mail exista e a senha seja igual a persistida, deve retornar um token JWT que deve ser incluído no payload: `email`, `id`.
 
 Em caso de login inválido, deve retornar 401 e uma mensagem de erro apropriada.
 
